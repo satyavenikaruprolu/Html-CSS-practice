@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    align-items: center;
+    justify-content: center;    
+}
+.card {
+    height: 60vh;
+    width: 50vw;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+.input-container {
+    width: 50vw;
+    display: flex;    
+    justify-content: space-between;
+    margin:10px 0px;
+}
+.input-container input {
+    padding: 4px 8px;
+    outline: none;
+    border-radius: 8px;    
+}
+.submit {
+    padding: 4px 8px;
+    background-color: green;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.table-row {
+    background-color: pink;
+    color: blue;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    width: 10vw;
+    text-align: center;
+}
